@@ -2,17 +2,13 @@
 SouthernCrossPublicAPI final code push
 This project was generated with [ASP.NET Core Web API] version .NET Core 3.1
 
-# SchsTestApp
-
-This project was generated with [ASP.NET Core Web API] version .NET Core 3.1
-
 ## Development server
 
 Application is runing debug mode in dev environment and url is `http://localhost:21743/`. if you change any resources or code then you need to rebuild again.
 
 ## Running unit tests
 
-XUnit Test project can be run Visual Studio => Test menu => Run All Test
+XUnit Test project can be run Visual Studio => Test menu => Run all test
 
 ## Considerations & Decisions
 
