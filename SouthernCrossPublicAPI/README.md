@@ -12,9 +12,9 @@ XUnit Test project not working properly
 
 ## Considerations & Decisions
 
-01) I have consided member search test API as public web application, therefore not implemented any security related function (Authentication & Authorization).
+01) I have consided member search API as public web application, therefore not implemented any security related function (Authentication & Authorization).
 
-02) Member data maintain in the Json file (DataFile/MOCK DATA.json) instead of database. Because the search API providing one get function only. Another point is there is not much DB related activity.
+02) Member data maintain in the Json file (DataFile/MOCK DATA.json) instead of Database. Because the search API providing one get function only. Another point is there is not much Database related activity.
 
 03) Web API CORS enabled for "http://localhost:21743"and "http://localhost:4200" URLs and "GET" type methods only. If client application running with different domain then Web API CORS settings need to be update for consume the API. 
 
@@ -24,9 +24,13 @@ XUnit Test project not working properly
 
 06) In the search function member card number field is optional parameter. The user having the flexibility to perform the search activity without card number.
 
-07) Added swagger api documentation framework to describe the api functionalities.
+07) The search function working with exact data matching, so if user enter partial policy number or member card number result would be empty.
 
-08) Added XUnit Test project implimentd few test methodsto verify the API functionalty, but coud't make its workable. 
+08) Web API used attribute routing for manage the user request.
+
+9) Added swagger api documentation framework to describe the api functionalities (http://localhost:21743/swagger/index.html).
+
+10) Added XUnit Test project implimentd few test methods to verify the API functionalty. 
 
 ## What we could have improved on
 
